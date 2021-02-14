@@ -19,6 +19,6 @@ export class CartService {
     return this.items;
   }
   getShippingPrices() {
-    return this.httpclient.get("/assets.shipping.json");
+    return this.httpclient.get("/assets/shipping.json");
   }
 }
